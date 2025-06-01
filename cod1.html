@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Orange Edge - Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: black;
+    }
+    header {
+      background-color: black;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      color: orange;
+    }
+    nav {
+      background-color: orange;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: #fff5e6;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .hero button {
+      background-color: orange;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+    .feature-box {
+      background-color: white;
+      border: 2px solid orange;
+      padding: 30px;
+      width: 250px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ddd;
+    }
+    .feature-box h3 {
+      color: orange;
+      margin-bottom: 15px;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Orange Edge</h1>
+    <p>Where Design Meets Functionality</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Your Modern Digital Solution</h2>
+    <p>We help you build responsive and impactful websites with clean design and cutting-edge technology.</p>
+    <button onclick="alert('Thank you for showing interest!')">Get Started</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature-box">
+      <h3>Responsive Design</h3>
+      <p>Our layouts adapt beautifully to all screen sizes and devices.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Modern UI</h3>
+      <p>We use the latest trends to create eye-catching and clean user interfaces.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Fast Performance</h3>
+      <p>Optimized code and structure ensure lightning-fast load times.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at <strong>info@orangeedge.com</strong></p>
+    <p>&copy; 2025 Orange Edge. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
